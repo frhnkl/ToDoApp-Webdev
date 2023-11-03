@@ -15,7 +15,7 @@ A simple To-Do-App named 'Yours To Do'. created with Flask API backend. Users ca
   pip install to-requirements.txt
   ```
 
-## 3. Usage
+## 3. Usage Flowchart
 ![Teks paragraf Anda](https://github.com/frhnkl/ToDoApp-Webdev/assets/125452431/ee466e40-96ff-4c84-ac22-9e22e979acec)
 
 this is a flowchart for the app. The user starts on the login page. If the user doesn't have an account, the user can click on the registration page to create an account. after logging in, the user will be redirected to the main page where the user can create, edit, or delete tasks.
