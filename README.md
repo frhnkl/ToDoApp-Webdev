@@ -1,10 +1,17 @@
 
 # To-Do App Documentation
 
-## 1. Introduction
-A simple To-Do-App named 'Yours To Do'. created with Flask API backend. Users can create an account, log in, add new tasks, delete tasks, edit tasks, and move them to the 'done' part. it can help with your time and activities management
+## 1. Introduction and Background Problem
+A project manager needs to see and control his/her staff's work and progress. therefore, he contacted his friend to make him a simple ToDo App to make him able to control and see what his staff do. The solution is a simple To-Do-App named 'Yours To Do'. created with Flask API backend. Users can create an account, log in, add new tasks, delete tasks, edit tasks, and move them to the 'done' part. it can help with your time and activities management
 
-## 2. Installation
+## Objectives
+- Create an app where users can register and login
+- Create an app where users can add Tasks with name and descriptions of said tasks
+- User can move tasks between "ongoing" and "DONE"
+- user can edit or delete their tasks
+- users can see every tasks in to-do app
+
+## 3. Installation
 - there are some prerequisites that need to be installed before running this app. Those said prerequisites are :
 - Flask == 2.3.2
 - Flask-Migrate == 4.0.4
@@ -15,13 +22,13 @@ A simple To-Do-App named 'Yours To Do'. created with Flask API backend. Users ca
   pip install to-requirements.txt
   ```
 
-## 3. Usage Flowchart
+## 4. Usage Flowchart
 ![Teks paragraf Anda](https://github.com/frhnkl/ToDoApp-Webdev/assets/125452431/ee466e40-96ff-4c84-ac22-9e22e979acec)
 
 this is a flowchart for the app. The user starts on the login page. If the user doesn't have an account, the user can click on the registration page to create an account. after logging in, the user will be redirected to the main page where the user can create, edit, or delete tasks.
 
 
-## 4. Technologies Used
+## 5. Technologies Used
 - List the technologies and libraries used, including:
   - Python
   - Flask
@@ -30,7 +37,7 @@ this is a flowchart for the app. The user starts on the login page. If the user 
   - CSS
   - JavaScript
 
-## 5. Project Structure
+## 6. Project Structure
 ```txt
 .
 └── Todoapp/
